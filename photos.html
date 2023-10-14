@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+/* 
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+} */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+}
+header span{
+    color: chocolate;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #777;
+}
+
+header {
+  background-color: #f5f5f5;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.photo {
+    overflow: hidden;
+ width: 500px;
+ height: 500px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px #888;
+  transition: transform 0.2s;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+}
+
+
+</style>
+<body>
+    <header>
+    <h1>Welcome to AR Travel Blogs <span>Where Soul meets with Peace</span></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="stories.html">STORIES</a></li>
+            <li><a href="destinations.html">DESTINATIONS</a></li>
+            <li><a href="photos.html">PHOTOS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    
+        <h1>My Travel Photo Galleries</h1>
+      
+
+      <section class="gallery">
+        <div class="photo">
+          <img src="./images/eight.jpg" alt="Photo 1">
+          <p>Raining and Tee</p>
+        </div>
+        
+        <div class="photo">
+          <img src="./images/nine.jpg" alt="Photo 2">
+          <p>Stars and light</p>
+        </div>
+        
+       
+        
+        <div class="photo">
+          <img src="./images/Ten.jpg" alt="Photo N">
+          <p>Fog and Silence</p>
+        </div>
+      </section>
+</body>
+</html>
